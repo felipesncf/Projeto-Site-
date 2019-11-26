@@ -13,6 +13,8 @@ namespace SalesWeb.Models
         {
         }
 
-        public DbSet<SalesWeb.Models.Departamento> Departamento { get; set; }
+        public DbSet<Departamento> Departamento { get; set; }
+        public DbSet<Vendedor> Vendedor{ get; set; }
+        public DbSet<RegistroVendas> Registro { get; set; }
     }
 }
