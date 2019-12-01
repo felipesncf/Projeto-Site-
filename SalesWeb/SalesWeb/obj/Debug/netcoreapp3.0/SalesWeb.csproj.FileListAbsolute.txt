@@ -268,3 +268,4 @@ C:\Users\pioca_000\Music\Projeto-Site-\SalesWeb\SalesWeb\obj\Debug\netcoreapp3.0
 C:\Users\pioca_000\Music\Projeto-Site-\SalesWeb\SalesWeb\obj\Debug\netcoreapp3.0\SalesWeb.pdb
 C:\Users\pioca_000\Music\Projeto-Site-\SalesWeb\SalesWeb\obj\Debug\netcoreapp3.0\Razor\Views\Vendedores\Index.cshtml.g.cs
 C:\Users\pioca_000\Music\Projeto-Site-\SalesWeb\SalesWeb\obj\Debug\netcoreapp3.0\Razor\Views\Vendedores\Create.cshtml.g.cs
+C:\Users\pioca_000\Music\Projeto-Site-\SalesWeb\SalesWeb\obj\Debug\netcoreapp3.0\Razor\Views\Vendedores\Delete.cshtml.g.cs
