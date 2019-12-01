@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using SalesWeb.Models;
+using SalesWeb.Models.ViewModels;
 using SalesWeb.Services;
 
 namespace SalesWeb.Controllers
@@ -11,10 +12,12 @@ namespace SalesWeb.Controllers
     public class VendedoresController : Controller
     {
         private readonly VendedorService _vendedorService;
+        private readonly DepartamentoService _departamentoService;
 
-        public VendedoresController(VendedorService vendedorService)
+        public VendedoresController(VendedorService vendedorService, DepartamentoService departamentoService)
         {
             _vendedorService = vendedorService;
+            _departamentoService = departamentoService;
         }
 
         public IActionResult Index()
@@ -25,7 +28,9 @@ namespace SalesWeb.Controllers
 
         public IActionResult Create()
         {
-            return View();
+            var departamentos = _departamentoService.FindAll();
+            var viewModel = new VendedorFormsViewModel { Departamentos = departamentos };
+            return View(viewModel);
         }
         [HttpPost]
         [ValidateAntiForgeryToken]

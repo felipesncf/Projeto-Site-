@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\SalesWeb",
+    "\\SalesWeb\\Controllers",
+    "\\SalesWeb\\Services"
   ],
-  "SelectedNode": "\\SalesWeb.sln",
+  "SelectedNode": "\\SalesWeb\\Services\\VendedorService.cs",
   "PreviewInSolutionExplorer": false
 }

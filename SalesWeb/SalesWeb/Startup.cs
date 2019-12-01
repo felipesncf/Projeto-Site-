@@ -32,6 +32,7 @@ namespace SalesWeb
             services.AddDbContext<SalesWebContext>(options =>
                     options.UseMySql(Configuration.GetConnectionString("SalesWebContext"), builder =>
 builder.MigrationsAssembly("SalesWeb")));
+            services.AddScoped<DepartamentoService>();
             services.AddScoped<SeedingService>();
             services.AddScoped<VendedorService>();
         }
