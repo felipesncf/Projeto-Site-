@@ -3,8 +3,10 @@
     "",
     "\\SalesWeb",
     "\\SalesWeb\\Controllers",
+    "\\SalesWeb\\Models",
+    "\\SalesWeb\\Models\\ViewModels",
     "\\SalesWeb\\Services"
   ],
-  "SelectedNode": "\\SalesWeb\\Services\\VendedorService.cs",
+  "SelectedNode": "\\SalesWeb.sln",
   "PreviewInSolutionExplorer": false
 }
