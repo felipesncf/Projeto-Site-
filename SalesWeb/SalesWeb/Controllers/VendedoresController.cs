@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -24,7 +24,7 @@ namespace SalesWeb.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var list = _vendedorService.FindAllAsync();
+            var list = await _vendedorService.FindAllAsync();
             return View(list);
         }
 
@@ -64,8 +64,15 @@ namespace SalesWeb.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Delete(int id)
         {
-            await _vendedorService.RemoveAsync(id);
-            return RedirectToAction(nameof(Index));
+            try
+            {
+                await _vendedorService.RemoveAsync(id);
+                return RedirectToAction(nameof(Index));
+            }
+            catch(IntegrityException e)
+            {
+                return RedirectToAction(nameof(Error), new { mensagem = e.Message });
+            }
         }
 
         public async Task<IActionResult> Details(int? id)

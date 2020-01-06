@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pioca_000\\Music\\Projeto-Site-\\SalesWeb\\SalesWeb\\SalesWeb.csproj": {}
+    "C:\\Users\\pioca_000\\Music\\Projeto-Site-\\Projeto-Site-\\SalesWeb\\SalesWeb\\SalesWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pioca_000\\Music\\Projeto-Site-\\SalesWeb\\SalesWeb\\SalesWeb.csproj": {
+    "C:\\Users\\pioca_000\\Music\\Projeto-Site-\\Projeto-Site-\\SalesWeb\\SalesWeb\\SalesWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pioca_000\\Music\\Projeto-Site-\\SalesWeb\\SalesWeb\\SalesWeb.csproj",
+        "projectUniqueName": "C:\\Users\\pioca_000\\Music\\Projeto-Site-\\Projeto-Site-\\SalesWeb\\SalesWeb\\SalesWeb.csproj",
         "projectName": "SalesWeb",
-        "projectPath": "C:\\Users\\pioca_000\\Music\\Projeto-Site-\\SalesWeb\\SalesWeb\\SalesWeb.csproj",
+        "projectPath": "C:\\Users\\pioca_000\\Music\\Projeto-Site-\\Projeto-Site-\\SalesWeb\\SalesWeb\\SalesWeb.csproj",
         "packagesPath": "C:\\Users\\pioca_000\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pioca_000\\Music\\Projeto-Site-\\SalesWeb\\SalesWeb\\obj\\",
+        "outputPath": "C:\\Users\\pioca_000\\Music\\Projeto-Site-\\Projeto-Site-\\SalesWeb\\SalesWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
