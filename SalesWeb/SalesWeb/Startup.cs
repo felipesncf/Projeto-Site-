@@ -37,6 +37,7 @@ builder.MigrationsAssembly("SalesWeb")));
             services.AddScoped<DepartamentoService>();
             services.AddScoped<SeedingService>();
             services.AddScoped<VendedorService>();
+            services.AddScoped<RegistroVendasService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
